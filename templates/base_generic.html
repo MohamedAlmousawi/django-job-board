@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_1">
+
+    </div>
+    <!--/ bradcam_area  -->
+
+    <div class="job_details_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="job_details_header">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+
+                    <div class="apply_job_form white-bg">
+{% block body %}{% endblock body %}
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    {% endblock content %}
